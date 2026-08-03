@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+long long Suma(int num1, int num2)
+{
+    double r=0;
+    for (int i=1 ; i<=num2 ; i++) {
+        r=r+num1;
+    }
+    return r;
+}
+
+int main()
+{
+    int num1,num2;
+    cin>>num1;
+    cin>>num2;
+    cout<<Suma(num1,num2);
+    return 0;
+}
